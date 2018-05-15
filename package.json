@@ -16,9 +16,9 @@
     "CustomEvent",
     "Web API Interface"
   ],
-  "main": "custom-event-polyfill.js",
+  "main": "polyfill.js",
   "files": [
-    "custom-event-polyfill.js"
+    "polyfill.js"
   ],
   "repository": {
     "type": "git",

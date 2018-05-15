@@ -1,10 +1,12 @@
-describe('custom-event-polyfill', function () {
+describe('custom-event-polyfill', function() {
   it('should be defined', function() {
     expect(CustomEvent).toBeDefined();
   });
 
   it('should be defined as a function', function() {
-    expect(function() { new CustomEvent('test'); }).not.toThrow();
+    expect(function() {
+      new CustomEvent('test');
+    }).not.toThrow();
   });
 
   it('should work as expected', function() {
