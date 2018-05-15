@@ -1,0 +1,16 @@
+# .travis.yml
+cache: yarn
+before_install:
+  - git fetch --unshallow
+stages:
+  - test
+  - name: release
+    if: branch = master AND type = push AND fork = false
+jobs:
+  include:
+    - stage: release
+      language: node_js
+      node_js: '8'
+      script: yarn semantic-release
+notifications:
+  email: false

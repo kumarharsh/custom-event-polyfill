@@ -1,10 +1,7 @@
 module.exports = function(config) {
-  config.set({ 
+  config.set({
     basepath: '',
-    files: [
-      'custom-event-polyfill.js',
-      './tests/*.test.js'
-    ],
+    files: ['custom-event-polyfill.js', './tests/*.test.js'],
     frameworks: ['jasmine'],
     reporters: ['dots'],
     singleRun: true
