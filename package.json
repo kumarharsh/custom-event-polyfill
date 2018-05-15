@@ -1,5 +1,5 @@
 {
-  "name": "custom-event-polyfill",
+  "name": "@playlyfe/custom-event-polyfill",
   "version": "0.3.0",
   "author": "Evan Krambuhl <thekrambuhl@gmail.com>",
   "contributors": [
