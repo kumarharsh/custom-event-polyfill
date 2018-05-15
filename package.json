@@ -1,6 +1,6 @@
 {
   "name": "@playlyfe/custom-event-polyfill",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "author": "Evan Krambuhl <thekrambuhl@gmail.com>",
   "contributors": [
     "Mozilla Developer Network",
