@@ -1,7 +1,5 @@
 # .travis.yml
 cache: yarn
-before_install:
-  - git fetch --unshallow
 stages:
   - test
   - name: release
