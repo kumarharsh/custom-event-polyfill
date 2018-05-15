@@ -1,17 +1,25 @@
 # custom-event-polyfill
 
-Polyfill for creating CustomEvents on IE9/10/11 if native implementation is missing.
+A polyfill for creating CustomEvents on IE9+ if the native implementation is missing.
 
 ## Install
 
 ```
-$ npm install custom-event-polyfill
+# using yarn
+$ yarn add @playlyfe/custom-event-polyfill
+
+# using npm
+$ npm install --save @playlyfe/custom-event-polyfill
 ```
 
-## Usage 
+## Usage
 
+Just include this polyfill before using any code which creates a CustomEvent
+object, ideally as early as possible.
+
+Refer to the CustomEvent documentation for details on how to use it:
 https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent
 
 ## License
 
-MIT 
+MIT
