@@ -4,7 +4,7 @@ A polyfill for creating CustomEvents on IE9+ if the native implementation is mis
 
 ## Install
 
-```
+```bash
 # using yarn
 $ yarn add @playlyfe/custom-event-polyfill
 
