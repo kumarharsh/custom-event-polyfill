@@ -1,3 +1,11 @@
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/kumarharsh/custom-event-polyfill/compare/v1.0.4...v1.0.5) (2018-07-22)
+
+
+### Bug Fixes
+
+* **test:** add support for saucelabs tests ([fb213c5](https://github.com/kumarharsh/custom-event-polyfill/commit/fb213c5))
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/kumarharsh/custom-event-polyfill/compare/v1.0.3...v1.0.4) (2018-05-23)
 
