@@ -6,9 +6,15 @@ stages:
     if: branch = master AND type = push AND fork = false
 jobs:
   include:
+    - stage: test
+      language: node_js
+      node_js: '8'
+      script: yarn test-ci
     - stage: release
       language: node_js
       node_js: '8'
       script: yarn semantic-release
 notifications:
   email: false
+addons:
+  sauce_connect: true
