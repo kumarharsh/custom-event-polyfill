@@ -1,5 +1,5 @@
 {
-  "name": "@playlyfe/custom-event-polyfill",
+  "name": "custom-event-polyfill",
   "version": "1.0.0",
   "author": "Evan Krambuhl <thekrambuhl@gmail.com>",
   "contributors": [
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:kumarharsh/custom-event-polyfill.git"
+    "url": "git@github.com:krambuhl/custom-event-polyfill.git"
   },
   "scripts": {
     "test": "karma start",

@@ -9,10 +9,10 @@ A polyfill for creating CustomEvents on IE9+ if the native implementation is mis
 
 ```bash
 # using yarn
-$ yarn add @playlyfe/custom-event-polyfill
+$ yarn add custom-event-polyfill
 
 # using npm
-$ npm install --save @playlyfe/custom-event-polyfill
+$ npm install --save custom-event-polyfill
 ```
 
 ## Usage
