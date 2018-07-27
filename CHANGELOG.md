@@ -1,3 +1,12 @@
+<a name="1.0.6"></a>
+## [1.0.6](https://github.com/kumarharsh/custom-event-polyfill/compare/v1.0.5...v1.0.6) (2018-07-27)
+
+
+### Bug Fixes
+
+* **package:** fix project name & references ([2eb73b3](https://github.com/kumarharsh/custom-event-polyfill/commit/2eb73b3))
+* **ci:** revert repository url ([85aa99a](https://github.com/kumarharsh/custom-event-polyfill/commit/85aa99a))
+
 <a name="1.0.5"></a>
 ## [1.0.5](https://github.com/kumarharsh/custom-event-polyfill/compare/v1.0.4...v1.0.5) (2018-07-22)
 
