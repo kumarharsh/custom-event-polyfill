@@ -23,31 +23,26 @@
 
       // We use here some version of `Object.assign` implementation, to create a shallow copy of `params`.
       // Based on https://github.com/christiansany/object-assign-polyfill/blob/213cc63df14515fb543117059d1576204bfaa8a7/index.js
-      params = (function(from) {
-        'use strict';
-
-        var to = {};
-        // Skip over if undefined or null
-        if (from != null) {
-          for (var nextKey in from) {
-            // Avoid bugs when hasOwnProperty is shadowed
-            if (Object.prototype.hasOwnProperty.call(from, nextKey)) {
-              to[nextKey] = from[nextKey];
-            }
+      var newParams = {};
+      // Skip over if undefined or null
+      if (params != null) {
+        for (var nextKey in params) {
+          // Avoid bugs when hasOwnProperty is shadowed
+          if (Object.prototype.hasOwnProperty.call(params, nextKey)) {
+            newParams[nextKey] = params[nextKey];
           }
         }
-        return to;
-      })(params || {});
+      }
 
-      params.bubbles = !!params.bubbles;
-      params.cancelable = !!params.cancelable;
+      newParams.bubbles = !!newParams.bubbles;
+      newParams.cancelable = !!newParams.cancelable;
 
       evt = document.createEvent('CustomEvent');
       evt.initCustomEvent(
         event,
-        params.bubbles,
-        params.cancelable,
-        params.detail
+        newParams.bubbles,
+        newParams.cancelable,
+        newParams.detail
       );
       origPrevent = evt.preventDefault;
       evt.preventDefault = function() {
